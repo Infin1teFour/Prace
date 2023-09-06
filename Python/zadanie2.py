@@ -73,4 +73,3 @@ while True:
 
     time.sleep(10)
     t.clear()
-    
