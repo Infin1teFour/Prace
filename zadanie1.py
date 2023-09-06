@@ -4,8 +4,7 @@
 
 
 #Pobierz zmienne
-imie = input("Podaj swoje imie: ")
-nazwisko = input("Podaj swoje nazwisko: ")
+imie, nazwisko = input("Podaj swoje imie i nazwisko: ").split()
 wiek = int(input("Podaj swój wiek: "))
 
 #Sprawdzenia długości imiona i nazwiska
