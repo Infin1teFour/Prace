@@ -2,7 +2,15 @@ import tkinter as tk
 from tkinter import ttk
 import operator
 
-ops = { "+": operator.add, "-": operator.sub, "*": operator.mul, "**": operator.pow, "/": operator.truediv,"//": operator.floordiv, "%": operator.mod }
+ops = {
+    "+": operator.add,
+    "-": operator.sub,
+    "*": operator.mul,
+    "**": operator.pow,
+    "/": operator.truediv,
+    "//": operator.floordiv,
+    "%": operator.mod
+    }
 
 root = tk.Tk()
 
