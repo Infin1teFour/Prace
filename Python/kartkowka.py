@@ -6,6 +6,7 @@ from tkinter import ttk
 root = tk.Tk()
 root.resizable(False,False)
 root.title("Kartkówka")
+root.geometry("274x776")
 
 
 Tytuł = tk.Label(text="Kartkówka",font=("Times New Roman",20)).grid(column=0, row=0, columnspan=2)
