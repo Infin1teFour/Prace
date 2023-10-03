@@ -13,11 +13,11 @@ root.geometry("274x776")
 
 
 Tytuł = tk.Label(text="Kartkówka",font=("Times New Roman",20)).grid(column=0, row=0, columnspan=2)
-text_input = [tk.StringVar(),tk.StringVar(),tk.StringVar(),tk.StringVar(),tk.StringVar(),tk.StringVar(),tk.StringVar(),tk.StringVar(),tk.StringVar(),tk.StringVar()]
+text_input = [tk.StringVar(),tk.StringVar(),tk.StringVar(),tk.StringVar(),tk.StringVar(),tk.StringVar(),tk.StringVar(),tk.StringVar(),tk.StringVar(),tk.StringVar()]# Oh no, not again
 
 
 # Zadanie 1
-
+# fajne spoko #Jestem z tym zgodny
 zad1_title = tk.Label(text="Zadanie 1 ",font=("Times New Roman",15)).grid(column=0, row=1)
 zad1_content = tk.Label(text="6**3*5",font=("Times New Roman",10)).grid(column=0, row=2)
 zad1_input = tk.Entry(textvariable=text_input[0]).grid(column=0, row=3)
@@ -100,6 +100,7 @@ zad10_correct.grid(column=1, row=30)
 # Tabele
 
 odpowiedzi = ["1080","64","77.5","19683","x=29.375","x=-10","1444","5.25","256","614.125"]
+#whot tego typu whot
 zadania = {
     0: zad1_correct,
     1: zad2_correct,
